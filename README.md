@@ -7,3 +7,18 @@ In this analysis, we used Scikit-learn and Imbalanced-learn libraries to build d
 
 The balanced accuracy scores and the precision and recall scores for each model are as below:
 
+![Naive Random Oversampling](https://user-images.githubusercontent.com/80492376/126049523-5630c369-2e1e-4f49-81ec-275553850116.png)
+
+Native Random Oversampling: the balanced accuracy score is 0.66, precision score is 0.01 for high risk loan and 1 for low risk loan. The recall score is 0.66 for high risk loan and 0.67 for low risk loan.
+
+![SMOTE Oversampling](https://user-images.githubusercontent.com/80492376/126049539-67126e2c-8e3a-4654-b79a-ee41eead0354.png)
+
+SMOTE Oversampling algorithm: the balanced accuracy score is 0.66, precision score is 0.01 for high risk loan and 1 for low risk loan. The recall score is 0.66 for high risk loan and 0.67 for low risk loan.
+
+![ClusterCentroids Undersampling algorithm](https://user-images.githubusercontent.com/80492376/126049545-25ecbe50-9f0b-4cc2-a0b0-50d62a813d46.png)
+
+ClusterCentroids Undersampling algorithm: the balanced accuracy score is 0.51, precision score is 0.01 for high risk loan and 1 for low risk loan. The recall score is 0.57 for high risk loan and 0.45 for low risk loan.
+
+![SMOTEENN Sampling algorithm](https://user-images.githubusercontent.com/80492376/126049563-312b3f9f-1e7e-4c53-888d-93f71c712ef9.png)
+
+SMOTEENN Sampling algorithm: the balanced accuracy score is 0.65, precision score is 0.01 for high risk loan and 1 for low risk loan. The recall score is 0.74 for high risk loan and 0.58 for low risk loan.
